@@ -1,3 +1,10 @@
 body{
-    background-color: beige;
+    background-color: rgb(42, 21, 74);
+}
+
+h1 {
+    font-size: small;
+    color: white;
+    text-align: center;
+    
 }
