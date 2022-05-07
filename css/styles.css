@@ -27,7 +27,11 @@ h4 {
 #aboutus {
     color: white;
 }
-#map{
-    
-    
+
+.socials{
+    width: 40px;
+    height: 40px;
+}
+.steps {
+    font-size: larger;
 }
