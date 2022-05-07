@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(42, 21, 74);
+    background-color: rgb(34, 23, 59);
 }
 
 h1 {
@@ -7,4 +7,14 @@ h1 {
     color: white;
     text-align: center;
     
+}
+h5 {
+    font-size: x-large;
+    background-color: rgb(115, 192, 137);
+}
+.card {
+    background-color:rgb(214, 248, 193);
+}
+.btn {
+    background-color: rgb(32, 32, 120);
 }
