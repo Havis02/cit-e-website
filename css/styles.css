@@ -42,3 +42,10 @@ h4 {
     font-size: x-large;
     background-color: rgb(115, 192, 137);
 }
+.signup-form{
+    height: 500px;
+    width: 600px;
+}
+.signup-head {
+    padding: 8px;
+}
