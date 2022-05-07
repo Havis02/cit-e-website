@@ -42,10 +42,17 @@ h4 {
     font-size: x-large;
     background-color: rgb(115, 192, 137);
 }
-.signup-form{
-    height: 500px;
-    width: 600px;
-}
+
 .signup-head {
     padding: 8px;
+}
+.signup-content .radio {
+    margin: 10px 10px;
+
+}
+.signup-content2 .input{
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(48, 32, 83);
 }
