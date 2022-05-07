@@ -51,8 +51,20 @@ h4 {
 
 }
 .signup-content2 .input{
+    
     width: auto;
     padding: 10px;
     margin: 10px;
     color: rgb(48, 32, 83);
+}
+.signup-content2 {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(48, 32, 83);
+}
+#form {
+    background-color: rgb(64, 133, 90);
+}
+.signup-head {
+    text-align: center;
 }
