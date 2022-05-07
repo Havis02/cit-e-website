@@ -38,3 +38,7 @@ h4 {
 .link {
     font-size: smaller;
 }
+.card-text{
+    font-size: x-large;
+    background-color: rgb(115, 192, 137);
+}

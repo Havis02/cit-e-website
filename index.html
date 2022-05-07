@@ -20,7 +20,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#logo">
           <img src="images/logo.png" alt="logo" width="120" height="78">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -30,16 +30,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+              <a class="nav-link active" aria-current="page" href="#Pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Locations</a>
+              <a class="nav-link" href="#Location">Locations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Become a Member!</a>
+              <a class="nav-link" href="#Member">Become a Member!</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Reserve a Bike</a>
+              <a class="nav-link" href="#Reserve">Reserve a Bike</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -47,8 +47,8 @@
                 View More
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Contact us</a></li>
-                <li><a class="dropdown-item" href="#">Our Socials</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact us</a></li>
+                <li><a class="dropdown-item" href="#socials">Our Socials</a></li>
               </ul>
             </li>
           </ul>
@@ -180,7 +180,7 @@
 
     </p>
     <!--MAP-->
-    <section id="map">
+    <section id="Location">
       <div class="container py-1">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-6">
@@ -220,8 +220,26 @@
     </section>
     <!--END OF MAP-->
     <br>
+    <!--Become a member now!-->
+    <div class="container-fluid">
+      <div class="col-12 col-md-12 col-lg-12">
+        <div class="card text-center">
+
+          <div class="card-body">
+            <h5 class="card-title">Become A <u>Member</u> Now!</h5>
+            <p class="card-text">Join Us & have access to your own <strong>Membership Perks</strong></p>
+            <a href="#Member">
+              <button class="btn btn-primary">[Join Here]</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--end of become a member now!-->
     <!-- PRICING -->
-    <div class="container py-1">
+    <div class="container py-1" id="Pricing">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6">
           <img src="images/cbuni.jpg" width="100%" alt="placeholder">
@@ -247,33 +265,59 @@
           </p>
           <br>
           <p class="link" style="color: white;">
-            Information and overage fee table can be found from <u><url>https://bikesharetoronto.com/pricing/<url></u>
+            Information and overage fee table can be found from <!--<u><url>https://bikesharetoronto.com/pricing/<url></u>-->
            </p>
+           <a href="https://bikesharetoronto.com/pricing/" target="_blank">
+             <p class="link" style="color: white;">
+               <u>https://bikesharetoronto.com/pricing/</u>
+             </p>
+           </a>
         </div>
       </div>
     </div>
+    <br>
     <!-- END OF PRICING -->
+    <!--reservation form-->
 
-    <!--Become a member now!-->
-    <div class="container-fluid">
+    <!--end of reservation form-->
+    <!--member perks-->
+    <div class="container-fluid" id="Member">
       <div class="col-12 col-md-12 col-lg-12">
         <div class="card text-center">
 
           <div class="card-body">
-            <h5 class="card-title">Become A <u>Member</u> Now!</h5>
-            <p class="card-text">Join Us & have access to your own <strong>Membership Perks</strong></p>
-            <a href="#" class="btn btn-primary">[Join Here]</a>
+            <h5 class="card-title"></h5>
+            <p class="card-text"><strong>30 MEMBERSHIP £99 
+              LESS THAN £10 A MONTH</strong>
+            </p>
+            <p>
+              Join as an Annual 30 Member for only £99 per year. Enjoy multiple 30-minute, station-to-station trips all year round for less than £10 a month or as little as 30p a day
+              </p>
+              <p>
+              <em>*The first 30 minutes of each ride are included in the membership. After 30 minutes extra usage fees apply, see Overage Fees below.</em>
+                </p>
+                <br>
+                <p class="card-text"><strong>ANNUAL 45 MEMBERSHIP $115
+                  MORE FLEXIBILITY, MORE RIDE TIME</strong>
+                </p>
+                  <p>
+                  Join as an Annual 45 Member for only $115 per year. Enjoy unlimited 45 minute, station-to-station trips all year round.
+                  </p>
+                  <p>
+                  <em>*The first 30 minutes of each ride are included in the membership. After 30 minutes extra usage fees apply, see Overage Fees below.</em>
+                    </p>
+                    <br>
+            <a href="#" class="btn btn-primary">JOIN NOW!</a>
           </div>
 
         </div>
       </div>
     </div>
-    <!--end of become a member now!-->
-    <!--reservation form-->
-
-    <!--end of reservation form-->
+    <br>
+    <br>
+    <!--end of member perks-->
     <!--contact us-->
-    <div class="container-fluid row">
+    <div class="container-fluid row" id="contact">
       <div class="col-md-4 col-lg-4"></div>
       <div class="col-md-4 col-lg-4">
         <h3 class="maptitle" style="color: rgb(238, 255, 204);"><u>Contact Us!</u></h3>
@@ -293,21 +337,22 @@
   </main>
 
   <br>
+  <br>
 
-  <footer class="container py-1">
+  <footer class="container py-1" id="socials">
     <div class="row pt-1 pb-1 fixed bottom bg-dark">
       <div class="col-5 col-md-5 col-lg-5">
-        <a href="" target="_blank">
+        <a href="https://www.facebook.com/" target="_blank">
           <img class="socials" src="images/fb.png">
         </a>
       </div>
       <div class="col-5 col-md-5 col-lg-5">
-        <a href="" target="_blank">
+        <a href="https://www.instagram.com/" target="_blank">
           <img class="socials" src="images/ig.png">
         </a>
       </div>
       <div class="col-2 col-md-2 col-lg-2">
-        <a href="" target="_blank">
+        <a href="https://twitter.com/" target="_blank">
           <img class="socials" src="images/twitter.png">
         </a>
       </div>
