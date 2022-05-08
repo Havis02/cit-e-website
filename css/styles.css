@@ -65,6 +65,8 @@ h4 {
 #form {
     background-color: rgb(64, 133, 90);
 }
-.signup-head {
-    text-align: center;
+
+.reserve-section{
+    display: flex;
+    justify-content: center;
 }

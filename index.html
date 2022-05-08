@@ -39,7 +39,7 @@
               <a class="nav-link" href="#Member">Become a Member!</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Reserve">Reserve a Bike</a>
+              <a class="nav-link" href="#form">Reserve a Bike</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -280,80 +280,82 @@
     <br>
     <!-- END OF PRICING -->
     <!--reservation form-->
-    <form>
-      <div class="container-fluid" id="form">
-        <div class="col-12 col-md-12 col-lg-12">
+    <div class="reserve-section">
+      <form>
+        <div class="container-fluid column" id="form">
+          <div class="col-12 col-md-12 col-lg-12">
 
-          <div class="signup-head">
-            <h3 class="maptitle" style="color: rgb(238, 255, 204);"><u>Reserve Your Bike Here:</u></h3>
-          </div>
+            <div class="signup-head">
+              <h3 class="maptitle" style="color: rgb(238, 255, 204);"><u>Reserve Your Bike Here:</u></h3>
+            </div>
 
-          <div class="signup-content">
-            <input type="radio" class="radio" name="r">
-            <label class="text-white">Single Trip</label>
-            <input type="radio" class="radio" name="r">
-            <label class="text-white">Day Trip</label>
-            <input type="radio" class="radio" name="r">
-            <label class="text-white">3 Day Hire</label>
-          </div>
-
-          <div class="signup-content2">
-            <input type="text" placeholder="First Name" class="input bg-light">
-            <input type="text" placeholder="Last Name" class="input bg-light">
-          </div>
-
-          <div class="signup-content2">
-            <label class="text-white">Day of Hire</label>
-            <input type="date" class="doh" style="margin-left:10px;">
-            <label class="text-white" style="margin-left:15px;">Day of Return</label>
-            <input type="date" class="doh" style="margin-left:10px;">
-          </div>
-
-          <div class="signup-content2">
-            <label class="text-white">Time of Hire</label>
-            <input type="time" class="toh" style="margin-left:10px;">
-            <label class="text-white" style="margin-left:25px;">Time of Return</label>
-            <input type="time" class="toh" style="margin-left:10px;">
-          </div>
-
-          <div class="signup-content2">
-            <input type="number" class="bg-light code" placeholder="Member Code">
-          </div>
-
-          <div class="signup-content2">
-            <label style="color: white;">Bike Pick Up</label>
-            <select style="margin-left:10px;">
-              <option>Station (Main) Hub</option>
-              <option>Market Place Station</option>
-              <option>King's Collage Station</option>
-              <option>Kettles Yard Station</option>
-              <option>The Grafton Station</option>
-            </select>
-
-          </div>
-          <div class="signup-content2">
-            <p style="color: white;"><strong><u>Payment:</u></strong></p>
             <div class="signup-content">
               <input type="radio" class="radio" name="r">
-              <label class="text-white">Visa</label>
+              <label class="text-white">Single Trip</label>
               <input type="radio" class="radio" name="r">
-              <label class="text-white">Mastercard</label>
+              <label class="text-white">Day Trip</label>
               <input type="radio" class="radio" name="r">
-              <label class="text-white">PayPal</label>
+              <label class="text-white">3 Day Hire</label>
             </div>
-            <input type="text" placeholder="Initials on Card" class="input bg-light">
-            <label class="text-white" style="margin-left:15px;">Expiry Date</label>
-            <input type="date" class="doh" style="margin-left:10px;">
+
+            <div class="signup-content2">
+              <input type="text" placeholder="First Name" class="input bg-light">
+              <input type="text" placeholder="Last Name" class="input bg-light">
+            </div>
+
+            <div class="signup-content2">
+              <label class="text-white">Day of Hire</label>
+              <input type="date" class="doh" style="margin-left:10px;">
+              <label class="text-white" style="margin-left:15px;">Day of Return</label>
+              <input type="date" class="doh" style="margin-left:10px;">
+            </div>
+
+            <div class="signup-content2">
+              <label class="text-white">Time of Hire</label>
+              <input type="time" class="toh" style="margin-left:10px;">
+              <label class="text-white" style="margin-left:25px;">Time of Return</label>
+              <input type="time" class="toh" style="margin-left:10px;">
+            </div>
+
+            <div class="signup-content2">
+              <input type="number" class="bg-light code" placeholder="Member Code">
+            </div>
+
+            <div class="signup-content2">
+              <label style="color: white;">Bike Pick Up</label>
+              <select style="margin-left:10px;">
+                <option>Station (Main) Hub</option>
+                <option>Market Place Station</option>
+                <option>King's Collage Station</option>
+                <option>Kettles Yard Station</option>
+                <option>The Grafton Station</option>
+              </select>
+
+            </div>
+            <div class="signup-content2">
+              <p style="color: white;"><strong><u>Payment:</u></strong></p>
+              <div class="signup-content">
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">Visa</label>
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">Mastercard</label>
+                <input type="radio" class="radio" name="r">
+                <label class="text-white">PayPal</label>
+              </div>
+              <input type="text" placeholder="Initials on Card" class="input bg-light">
+              <label class="text-white" style="margin-left:15px;">Expiry Date</label>
+              <input type="date" class="doh" style="margin-left:10px;">
+            </div>
+            <div class="signup-content2">
+              <input type="number" class="bg-light code" placeholder="Card Number" style="margin-left:10px;">
+            </div>
+            <div class="signup-content2">
+              <a href="#" class="btn btn-primary" style="margin-left:10px;">Complete my Reservation!</a>
+            </div>
           </div>
-          <div class="signup-content2">
-            <input type="number" class="bg-light code" placeholder="Card Number" style="margin-left:10px;">
-          </div>
-          <div class="signup-content2">
-          <a href="#" class="btn btn-primary" style="margin-left:10px;">Complete my Reservation!</a>
         </div>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
     <!--end of reservation form-->
     <br>
     <br>
